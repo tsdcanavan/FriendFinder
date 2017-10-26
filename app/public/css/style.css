@@ -1,0 +1,56 @@
+body {
+    width: 75%;
+   margin: 0px auto; 
+
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+}
+
+header {
+    height: 100px;
+}
+
+header > nav {
+    height: 100%;
+}
+
+a {
+    color: black;
+}
+
+select {
+    text-align: right;
+    color: grey;
+}
+main {
+    flex: 1 0 auto;
+}
+
+main h1 {
+    font-weight: bold;
+}
+
+ main h2 {
+    font-weight: 300;
+}
+
+.col h3, .col h5 {
+    color: blue;
+}
+
+.about-jumbotron {
+background-color: lightskyblue;
+}
+
+.stmt-jumbotron {
+text-align: left;
+color: black;
+background-color: lightskyblue;
+}
+
+.tc-jumbotron {
+    text-align: center;
+    color: black;
+    background-color: lightskyblue;
+}
