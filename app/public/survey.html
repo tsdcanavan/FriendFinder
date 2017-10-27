@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -17,10 +18,14 @@
             <header>
                 <div>
                     <h1>
-                        <a href="/">Friend Finder</a>
+                        <a href="/">
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                            Friend Finder</a>
                     </h1>
                     <p>
                     </p>
+                    <i class="fa fa-child" aria-hidden="true"></i>
+                    <i class="fa fa-child" aria-hidden="true"></i>
                     <a href="/">
                         <button type="submit" name="action">Go to Home</button>
                     </a>
@@ -30,6 +35,8 @@
                     <a href="/api/friends">
                         <button type="submit" name="action">Go to Friend List</button>
                     </a>
+                    <i class="fa fa-child" aria-hidden="true"></i>
+                    <i class="fa fa-child" aria-hidden="true"></i>
                 </div>
             </header>
         </div>
@@ -39,18 +46,18 @@
     <div>
         <hr>
         <div class="jumbotron about-jumbotron">
-        <h4>About You</h4>
-        <div class="row">
-            <div class="col">
-                <h5>Name (Required)</h5>
-                <input type="text" placeholder="Your Name" id="userName">
-            </div>
+            <h4>About You</h4>
+            <div class="row">
+                <div class="col">
+                    <h5>Name (Required)</h5>
+                    <input type="text" placeholder="Your Name" id="userName">
+                </div>
 
-            <div class="col">
-                <h5>Photo Link</h5>
-                <input type="text" placeholder="Photo Link" id="userPhoto">
+                <div class="col">
+                    <h5>Photo Link</h5>
+                    <input type="text" placeholder="Photo Link" id="userPhoto">
+                </div>
             </div>
-        </div>
         </div>
         <hr>
         <div class="jumbotron stmt-jumbotron">
@@ -59,8 +66,10 @@
             <div class="row">
                 <div class="col">
                     <h3>Statement 1</h3>
-                    <h5>I like sci-fi movies
-                        <select id="question1">
+                    <h5>
+                        <i class="fa fa-child" aria-hidden="true"></i>
+                        I like sci-fi movies
+                        <select class="chosen-select" id="question1">
                             <option value="" disabled selected>Choose your option</option>
                             <option value="1">1 (Strongly Disagree)</option>
                             <option value="2">2</option>
@@ -73,7 +82,9 @@
 
                 <div class="col">
                     <h3>Statement 2</h3>
-                    <h5>I like playing sports
+                    <h5>
+                        <i class="fa fa-child" aria-hidden="true"></i>
+                        I like playing sports
                         <select id="question2">
                             <option value="" disabled selected>Choose your option</option>
                             <option value="1">1 (Strongly Disagree)</option>
@@ -88,7 +99,9 @@
             <div class="row">
                 <div class="col">
                     <h3>Statement 3</h3>
-                    <h5>I like watching sports
+                    <h5>
+                        <i class="fa fa-child" aria-hidden="true"></i>
+                        I like watching sports
                         <select id="question3">
                             <option value="" disabled selected>Choose your option</option>
                             <option value="1">1 (Strongly Disagree)</option>
@@ -102,7 +115,9 @@
 
                 <div class="col">
                     <h3>Statement 4</h3>
-                    <h5>I like eating out
+                    <h5>
+                        <i class="fa fa-child" aria-hidden="true"></i>
+                        I like eating out
                         <select id="question4">
                             <option value="" disabled selected>Choose your option</option>
                             <option value="1">1 (Strongly Disagree)</option>
@@ -118,7 +133,9 @@
 
                 <div class="col">
                     <h3>Statement 5</h3>
-                    <h5>I like staying home
+                    <h5>
+                        <i class="fa fa-child" aria-hidden="true"></i>
+                        I like staying home
                         <select id="question5">
                             <option value="" disabled selected>Choose your option</option>
                             <option value="1">1 (Strongly Disagree)</option>
@@ -132,7 +149,9 @@
 
                 <div class="col">
                     <h3>Statement 6</h3>
-                    <h5>I like this class
+                    <h5>
+                        <i class="fa fa-child" aria-hidden="true"></i>
+                        I like this class
                         <select id="question6">
                             <option value="" disabled selected>Choose your option</option>
                             <option value="1">1 (Strongly Disagree)</option>
@@ -148,7 +167,9 @@
             <div class="row">
                 <div class="col">
                     <h3>Statement 7</h3>
-                    <h5>I hate this class
+                    <h5>
+                        <i class="fa fa-child" aria-hidden="true"></i>
+                        I hate this class
                         <select id="question7">
                             <option value="" disabled selected>Choose your option</option>
                             <option value="1">1 (Strongly Disagree)</option>
@@ -162,7 +183,9 @@
 
                 <div class="col">
                     <h3>Statement 8</h3>
-                    <h5>I like music
+                    <h5>
+                        <i class="fa fa-child" aria-hidden="true"></i>
+                        I like music
                         <select id="question8">
                             <option value="" disabled selected>Choose your option</option>
                             <option value="1">1 (Strongly Disagree)</option>
@@ -177,7 +200,9 @@
             <div class="row">
                 <div class="col">
                     <h3>Statement 9</h3>
-                    <h5>I miss Jeremiah
+                    <h5>
+                        <i class="fa fa-child" aria-hidden="true"></i>
+                        I miss Jeremiah
                         <select id="question9">
                             <option value="" disabled selected>Choose your option</option>
                             <option value="1">1 (Strongly Disagree)</option>
@@ -191,7 +216,9 @@
 
                 <div class="col">
                     <h3>Statement 10</h3>
-                    <h5>I like this survey
+                    <h5>
+                        <i class="fa fa-child" aria-hidden="true"></i>
+                        I like this survey
                         <select id="question10">
                             <option value="" disabled selected>Choose your option</option>
                             <option value="1">1 (Strongly Disagree)</option>
@@ -204,10 +231,16 @@
                 </div>
             </div>
 
-            <!-- Survey Submit Button -->
+            <!-- Submit Buttons -->
             <div>
                 <button type="submit" name="action" id="submitButton">Submit Responses
                 </button>
+            </div>
+            <div class="set-right">
+                <a href="/survey">
+                    <button type="submit" name="action" id="submitButton">Fill Again!
+                    </button>
+                </a>
             </div>
         </div>
     </div>
@@ -228,15 +261,13 @@
             </div>
         </div>
     </div>
+    <p>
+        <a href="/api/friends">API Friends List</a> |
+        <a href="https://github.com/tsdcanavan/friendfinder">GitHub Repo</a>
+    </p>
     <div class="divider"></div>
     <h5 id="userMatch"></h5>
     </div>
-            <!-- Survey Submit Button -->
-            <div>
-                <a href="/survey">
-                    <button type="submit" name="action" id="submitButton">Fill Again!
-                    </button></a>
-                </div>
     </div>
 
     <script type="text/javascript">

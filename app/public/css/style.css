@@ -54,3 +54,7 @@ background-color: lightskyblue;
     color: black;
     background-color: lightskyblue;
 }
+
+.set-right {
+    text-align: right;
+}
